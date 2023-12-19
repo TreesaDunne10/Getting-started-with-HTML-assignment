@@ -1,0 +1,110 @@
+Getting Started with HTML
+
+Question 1. Write a simple program in HTML that displays the heading "HTML define the content and structure of your website" on the web browser?
+
+Answer 1. <!DOCTYPE html>
+          <html lang = "en">
+          <head>
+            <meta charset = "UTF-8">
+            <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+            <title> HTML Example </title>
+          </head>
+          <body>
+            <h1> HTML defines the content and structure of your website </h1>
+          </body>
+          </html>
+
+
+Question 2. Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML documents?
+
+Answer 2. Comments in HTML are used to add notes or information within the code that are not displayed on the web pages. They serve the purpose of 
+          providing information for developers or anyone else examining the HTML document. Comments are ignored by browers and don't affect the 
+          rendering of the page. To add a comment in HTML, you use the <!-- to start the comment and --> to end it.
+
+          <!DOCTYPE html>
+          <html lang = "en">
+          <head>
+            <meta charset = "UTF-8">
+            <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+            <title> My Webpage </title>
+          </head>
+          <body>
+
+          <!--This is a comment. It won't be visible on the webpage -->
+
+            <h1> Welcome to my webpage </h1>
+            <p> This is some content on my page </p>
+
+          </body>
+          </html>
+
+         In this example, the comment provides additional information to the developer but wont appear when someone views the webpage. Comments are
+         useful for explaining the code, making notes, or temporarily disabling parts of the HTML during development.
+
+
+Question 3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a line break. Arrange these elements to create
+            a simple web page layout?
+
+Answer 3. <!DOCTYPE html>
+          <html lang = "en">
+          <head>
+            <meta charset = "UTF-8">
+            <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+            <title> Simple Webpage </title>
+          </head>
+          <body>
+
+            <h1> Welcome to my simple webpage </h1>
+
+            <p> This is a paragraph of text on my webpage. It can contain information or anything you want to convey </p>
+
+            <hr>
+
+            <p> This is a new paragraph after the horizontal line</p>
+            <!--Adding a line break -->
+            <br>
+
+            <p> This is an another paragraph with a line break above it</p>
+
+          </body>
+          </html>
+
+          This code includes a heading, a paragraph, a horizontal line(<hr>), and a line break(<br>) to create a basic structure
+
+
+Question 4. Write a short note on Tag and Element with an example?
+
+Answer 4. In HTML, a "Tag" is a fundamental building block used to define elements within a document. Tags are enclosed in angle brackets(< and >),
+          and they typically come in pairs - an opening tag and a closing tag - with content between them. The opening tag is the beginning of an 
+          element, and the closing tag is its end.
+
+          Example of a tag:
+
+          <!-- The <strong> tag is used to define strong importance, usually represented as bold text-->
+          <p> This is a <strong>bold</strong> statement.</p>
+ 
+          In this example, <strong> is the opening tag, and </strong> is the closing tag. The content between the tags, "bold", is emphasized and
+          typically displayed as bold text on a web page.
+
+          In HTML, an "Element" is a complete unit composed of an opening tag, content, and a closing tag. Elements area the fundamental building 
+          block that define the structure and content of a web page. The opening tag is the beginning of the element, the closing tag is its end, 
+          and the content is the information elements between the tags.
+
+          Example of an element:
+
+          <!-- The <h1> element is used to define a top level of heading -->
+          <h1> This is a heading</h1>
+
+          In this example, <h1> is the opening tag, and </h1> is the closing tag. "This is a heading" is the content of the <h1> element.
+
+
+Question 5. What is the DOCTYPE Declaration in HTML?
+
+Answer 5. The Document Type Declaration, commonly known as the "DOCTYPE Declaration" or simply "DOCTYPE", is a important element at the beginning 
+          of an HTML document. It informs the web browser about the version of HTML used in the document, allowing the browser to render the page 
+          correctly. The DOCTYPE Declaration is not an HTML tag, it is a declaration that comes before the <html> tag and it looks like this:
+
+          <!DOCTYPE html>
+
+          In this example, html refers to the version of HTMl being used, and specifically, it indicates the use of the HTML5. HTML5 is the latest 
+          and widely adopted version of HTML.
